@@ -125,7 +125,7 @@
 			<font face="Arial">
 				<h3 style="margin-bottom: 5px;">Tabela 01</h3>
 			</font>
-			<table border="1" align="center">
+			<table border="1" align="center" cellpadding="4">
 				<tr>
 					<td>Itens/Mês</td>
 					<th>Janeiro</th>
@@ -157,7 +157,7 @@
 			<font face="Arial">
 				<h3 style="margin-bottom: 5px;">Tabela 02</h3>
 			</font>
-			<table border="1" align="center>
+			<table border="1" align="center">
 				<tr>
 					<th style="padding: 5px;">Célula 01</th>
 					<th style="padding: 5px;">Célula 02</th>
@@ -167,6 +167,28 @@
 					<td style="padding: 2px 5px;" bgcolor="#d15656" align="left">74</td>
 					<td style="padding: 2px 5px;" bgcolor="#75d156" align="center">85</td>
 					<td style="padding: 2px 5px;" bgcolor="#56a6d1" align="right">110</td>
+				</tr>
+			</table>
+			<font face="Arial">
+				<h3 style="margin-bottom: 5px;">Tabela 03</h3>
+			</font>
+			<table border="1" align="center" cellspacing="3" cellpadding="5">
+				<tr>
+					<!--
+						Além do colspan existe o rowspan
+						que faz exatamente a mesma coisa só que 
+						com a linha e não com a coluna
+					-->
+					<th colspan="3">3 Colunas</th>
+					<th>Normal</th>
+					<th>Normal</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
 				</tr>
 			</table>
 			<hr size="1" color="#000000">
