@@ -4,10 +4,30 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: url("../imgs/polygon-scatter-haikei.svg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    z-index: 1;
+
+}
+
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
 }
 
 header, main {
-    width: 35rem;
+    width: 80vw;
     padding: 0 1rem;
     background: whitesmoke;
     box-shadow: 0px 0px 5px black;
@@ -17,6 +37,28 @@ textarea {
     width: 100%;
 }
 
+.section-title {
+    font-size: 2.2rem;
+    font-family:  Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.section-sub-title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
 select {
     margin-top: 1rem;
 }
+
+.aula .intro {
+    text-align: justify;
+}
+
+@media (min-width: 900px) {
+    header, main {
+        width: 40em;
+    }
+}   
